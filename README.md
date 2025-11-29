@@ -22,19 +22,30 @@ The project uses classical NLP + ML methods (TF-IDF + linear models), following 
 project/
 │   
 ├── main.py                 # Full pipeline orchestration
+
 ├── eda.py                  # Exploratory Data Analysis
+
 ├── utils.py                # Preprocessing utilities
+
 ├── train_baseline.py       # Baseline Logistic Regression
+
 ├── train_models.py         # Additional ML models
+
 ├── train_optuna.py         # Hyperparameter tuning
+
 ├── evaluate.py             # Evaluation metrics
+
 ├── interpretation.py       # SHAP + WordCloud and explanations
+
 ├── predict.py              # Model inference (new headline prediction)
+
 │
 ├── data/
 │   └── final_dataset.csv   # Cleaned dataset (ignored in git)
+|
 │
 ├── models/                 # Saved ML models (.pkl)
+|
 ├── plots/                  # EDA + SHAP plots
 └── README.md
 
