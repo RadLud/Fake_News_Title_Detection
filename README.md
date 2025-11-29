@@ -23,9 +23,9 @@ project/
 │   
   ├── main.py                 # Full pipeline orchestration
 
-  ├── eda.py                  # Exploratory Data Analysis
+  ├── eda.py                  # Download datasets for Kaggle and perform Exploratory Data Analysis
 
-  ├── utils.py                # Preprocessing utilities
+  ├── utils.py                # Utilities
 
   ├── train_baseline.py       # Baseline Logistic Regression
 
@@ -40,11 +40,14 @@ project/
   ├── predict.py              # Model inference (new headline prediction)
 
   ├── data/
-   └── final_dataset.csv   # Cleaned dataset (ignored in git)
+  
+   └── clean_dataset.csv      # Cleaned dataset (ignored in git)
 
   ├── models/                 # Saved ML models (.pkl)
 
-  ├── plots/                  # EDA + SHAP plots
+  ├── plots/                  # EDA plots
+  
+  ├── interpretation_plots/   # Interpretation plots
   
   └── README.md
 
