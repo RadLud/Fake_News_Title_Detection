@@ -21,22 +21,23 @@ The project uses classical NLP + ML methods (TF-IDF + linear models), following 
 
 project/
 │
-├── main.py                 - Full pipeline orchestration
-├── eda.py                  - Loading data from Kaggle and Exploratory Data Analysis
-├── utils.py                - Utilities
-├── train_baseline.py       - Baseline Logistic Regression
-├── train_models.py         - Additional models
-├── train_optuna.py         - Hyperparameter optimization
-├── evaluate.py             - Evaluation metrics
-├── interpretation.py       - SHAP and wordclouds
-├── predict.py              - Predictor for news headlines
+├── main.py                 # Full pipeline orchestration
+├── eda.py                  # Exploratory Data Analysis
+├── utils.py                # Preprocessing utilities
+├── train_baseline.py       # Baseline Logistic Regression
+├── train_models.py         # Additional ML models
+├── train_optuna.py         # Hyperparameter tuning
+├── evaluate.py             # Evaluation metrics
+├── interpretation.py       # SHAP + WordCloud and explanations
+├── predict.py              # Model inference (new headline prediction)
 │
 ├── data/
-│   └── clean_dataset.csv
+│   └── final_dataset.csv   # Cleaned dataset (ignored in git)
 │
-├── models/
-├── plots/
+├── models/                 # Saved ML models (.pkl)
+├── plots/                  # EDA + SHAP plots
 └── README.md
+
 
 ---------------------------------------------
 
