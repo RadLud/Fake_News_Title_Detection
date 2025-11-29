@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+*.csv
+*.xlsx
+*.json
+data/
+datasets/
+
+# Models (zapisane PIKLE)
+*.pkl
+models/
+
+# Plots and generated outputs
+plots/
+*.png
+*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

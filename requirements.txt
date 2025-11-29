@@ -1,0 +1,15 @@
+pandas
+kagglehub
+nltk
+wordcloud
+numpy
+textblob
+scikit-learn
+matplotlib
+seaborn
+joblib
+xgboost
+optuna
+shap
+imbalanced-learn
+tqdm    
