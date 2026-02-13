@@ -1,10 +1,10 @@
-Machine Learning Project – Postgraduate Studies (Machine Learning)
+Machine Learning Project (NLP) – Postgraduate Studies (AI)
 
 Author: Radosław
 
 ---------------------------------------------
 
-🎯 Project Goal
+Project Goal
 
 The objective of this project is to build a machine learning model capable of classifying news headlines as either:
 
@@ -18,7 +18,7 @@ The project uses classical NLP + ML methods (TF-IDF + linear models), following 
 
 ---------------------------------------------
 
-📂 Project Structure
+Project Structure
 
 project/
 │   
@@ -56,7 +56,7 @@ project/
 
 ---------------------------------------------
 
-🔧 Technologies Used
+Technologies Used
 
 Python 3.12  
 Pandas, NumPy  
@@ -69,7 +69,7 @@ Joblib
 
 ---------------------------------------------
 
-🧹 Preprocessing
+Preprocessing
 
 - Lowercasing text  
 - Removing HTML tags  
@@ -84,7 +84,7 @@ Final dataset size: ~62k headlines.
 
 ---------------------------------------------
 
-📊 Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 
 Includes:
 
@@ -98,7 +98,7 @@ Plots saved in /plots.
 
 ---------------------------------------------
 
-🤖 Models Trained
+Models Trained
 
 Baseline: Logistic Regression  
 - TF-IDF (1–2 ngrams)  
@@ -120,7 +120,7 @@ Best model:
 
 ---------------------------------------------
 
-🧪 Final Model Performance (Test Set)
+Final Model Performance (Test Set)
 
 Accuracy: 0.90  
 Precision: 0.89  
@@ -132,7 +132,7 @@ Confusion matrix, ROC curve, classification report generated automatically.
 
 ---------------------------------------------
 
-🧠 Interpretation
+Interpretation
 
 Includes:
 
@@ -143,13 +143,13 @@ Includes:
 
 ---------------------------------------------
 
-🚀 Running the Full Pipeline
+Running the Full Pipeline
 
 python main.py
 
 ---------------------------------------------
 
-🔮 Prediction on New Titles
+Prediction on New Titles
 
 from predict import load_predictor  
 model = load_predictor()  
@@ -164,7 +164,7 @@ probability: 0.91
 
 ---------------------------------------------
 
-📌 Notes for Academic Review
+Notes for Academic Review
 
 Includes:
 
