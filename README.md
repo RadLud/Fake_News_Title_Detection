@@ -18,40 +18,25 @@ The project uses classical NLP + ML methods (TF-IDF + linear models), following 
 
 ---------------------------------------------
 
-Project Structure
-
 project/
-│   
-  ├── main.py                 # Full pipeline orchestration
-
-  ├── eda.py                  # Download datasets for Kaggle and perform Exploratory Data Analysis
-
-  ├── utils.py                # Utilities
-
-  ├── train_baseline.py       # Baseline Logistic Regression
-
-  ├── train_models.py         # Additional ML models
-
-  ├── train_optuna.py         # Hyperparameter tuning
-
-  ├── evaluate.py             # Evaluation metrics
-
-  ├── interpretation.py       # SHAP + WordCloud and explanations
-
-  ├── predict.py              # Model inference (new headline prediction)
-
-  ├── data/
-  
-   └── clean_dataset.csv      # Cleaned dataset (ignored in git)
-
-  ├── models/                 # Saved ML models (.pkl)
-
-  ├── plots/                  # EDA plots
-  
-  ├── interpretation_plots/   # Interpretation plots
-  
-  └── README.md
-
+├── main.py                  # Full pipeline orchestration
+├── eda.py                   # Download Kaggle datasets & perform Exploratory Data Analysis
+├── utils.py                 # Utility functions
+├── train_baseline.py        # Baseline Logistic Regression
+├── train_models.py          # Additional ML models
+├── train_optuna.py          # Hyperparameter tuning (Optuna)
+├── evaluate.py              # Evaluation metrics
+├── interpretation.py        # SHAP + WordCloud explanations
+├── predict.py               # Model inference (new headline prediction)
+│
+├── data/
+│   └── clean_dataset.csv    # Cleaned dataset (gitignored)
+│
+├── models/                  # Saved ML models (.pkl)
+├── plots/                   # EDA plots
+├── interpretation_plots/    # Interpretation plots
+│
+└── README.md
 
 
 ---------------------------------------------
