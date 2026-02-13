@@ -17,7 +17,7 @@ This makes the problem both interesting and challenging due to limited textual c
 The project uses classical NLP + ML methods (TF-IDF + linear models), following academic requirements.
 
 ---------------------------------------------
-
+```
 project/
 ├── main.py                  # Full pipeline orchestration
 ├── eda.py                   # Download Kaggle datasets & perform Exploratory Data Analysis
@@ -37,7 +37,7 @@ project/
 ├── interpretation_plots/    # Interpretation plots
 │
 └── README.md
-
+```
 
 ---------------------------------------------
 
